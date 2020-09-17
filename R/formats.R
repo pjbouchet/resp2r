@@ -13,7 +13,7 @@
 #' @export
 
 response <- function(...) {
-  template <- system.file("rmarkdown/templates/response_doc/resources/response_doc.tex",
+  response_template <- system.file("rmarkdown/templates/response_doc/resources/response_doc.tex",
                           package = "resp2r")
-  bookdown::pdf_document2(..., template = template)
+  bookdown::pdf_document2(..., template = response_template)
 }

@@ -1,8 +1,9 @@
 Package: resp2r
 Type: Package
-Title: Response to Reviewers Rmarkdown Templates
+Title: Rmarkdown Templates for Response to Reviewers
 Version: 0.1.0
 Author: person("Phil", "Bouchet", , "pjbouchet@gmail.com", c("aut", "cre"))
+Maintainer: Phil Bouchet <pjbouchet@gmail.com>
 Description: This package provides an Rmarkdown template for writing a response to reviewers document.
 License: GPL-3
 Encoding: UTF-8
