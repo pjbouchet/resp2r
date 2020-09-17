@@ -9,5 +9,9 @@ License: GPL-3
 Encoding: UTF-8
 LazyData: true
 ByteCompile: true
+Imports:
+    tidyverse,
+    bookdown
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 6.1.0
+RoxygenNote: 7.1.0
+
